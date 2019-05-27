@@ -1,0 +1,29 @@
+body {
+	background-color: rgb(235, 235, 245);
+}
+
+.person {
+	cursor: pointer;
+}
+
+#people > span > div:nth-child(even) {
+	background-color: #efefef;
+}
+
+#people > span > div:hover {
+	background-color: rgb(10, 25, 35);
+	color: #efefef;
+}
+
+#people {
+	display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+	max-width: 450px;
+	min-width: 128px;
+	width: 50%;
+	margin: auto;
+	border: 2px solid rgb(10, 25, 35);
+	border-radius: 2px;
+	background-color: white;
+}
